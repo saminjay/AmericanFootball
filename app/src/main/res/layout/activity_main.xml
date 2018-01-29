@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    tools:context="com.example.neo.myapplication.MainActivity">
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="8dp"
+        android:text="Reset" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Team A"
+                android:textColor="#616161"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/scoreA"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/football"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="@color/colorAccent"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/pt1A"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+1 Point" />
+
+            <Button
+                android:id="@+id/pt2A"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+2 Point" />
+
+            <Button
+                android:id="@+id/pt3A"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+3 Point" />
+
+            <Button
+                android:id="@+id/pt6A"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+6 Point" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#4E342E" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Team B"
+                android:textColor="#616161"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/scoreB"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/football"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="@color/colorAccent"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/pt1B"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+1 Point" />
+
+            <Button
+                android:id="@+id/pt2B"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+2 Point" />
+
+            <Button
+                android:id="@+id/pt3B"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+3 Point" />
+
+            <Button
+                android:id="@+id/pt6B"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+6 Point" />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
