@@ -1,1 +1,1 @@
-# americanFootball
+# AmericanFootball
